@@ -14,14 +14,14 @@ function Landing() {
                 </div>
             </header>
             <div className="main">
-                <img src={flblack} alt="gif-initial" />
+                <img src={flblack} alt="gif-init" />
                 <br></br>
                 <a href="mailto:flowslabswork@outlook.com">Contate-nos</a>
                 <br></br>
             </div>
             <div className="markdown">
                 <div className="main-img">
-                    <img src={scrollImg} alt="scroll" />
+                    <img src={scrollImg} alt="scrollImg" />
                 </div>
             </div>
             <a href="https://api.whatsapp.com/send?phone=5551998810795" className="float">
