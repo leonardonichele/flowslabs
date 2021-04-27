@@ -20,6 +20,7 @@ function Landing() {
                 <br></br>
             </div>
             <div className="markdown">
+                <h3>Informações</h3>
                 <div className="main-img">
                     <img src={scrollImg} alt="scrollImg" />
                 </div>
@@ -39,11 +40,6 @@ function Landing() {
                         <h1>Design e desenvolvimento web.</h1>
                         <h3>Da arquitetura até seu desenvolvimento funcional.</h3>
                     </div>
-                    <div className="line-colored"></div>
-                    <div className="bg-three-totvs">
-                        <h1>Implantação TOTVS Protheus.</h1>
-                        <h3>Aumente sua eficiência, automatizando processos.</h3>
-                    </div>
                 </section>
             </div>
             <div className="line-colored"></div>
@@ -51,6 +47,13 @@ function Landing() {
                 <h1>Deseja saber mais? Entre em contato conosco.</h1>
                 <br></br>
                 <a href="mailto:flowslabswork@outlook.com">Contate-nos</a>
+                <br></br>
+            </div>
+            <div className="line-colored"></div>
+            <div className="contact-us">
+                <h1>Conheça nossos projetos.</h1>
+                <br></br>
+                <a href="mailto:flowslabswork@outlook.com">PORTFOLIO</a>
                 <br></br>
             </div>
             <div className="line-colored"></div>

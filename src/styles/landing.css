@@ -1,5 +1,4 @@
 /* NAVBAR =================================*/
-
 .navbar {
     overflow: hidden;
     position: fixed;
@@ -20,7 +19,6 @@
 }
 
 /* MAIN-CONTENT =================================*/
-
 .main {
     margin-top: 220px;
 }
@@ -63,14 +61,23 @@
     cursor: pointer;
 }
 
+.markdown h3 {
+    color: white;
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 300;
+    font-size: 23px;
+    padding-top: 90px;
+    text-shadow: white 0.01em 0.01em 0.1em;
+    text-align: center;
+    margin: 5px;
+}
+
 .markdown img {
-    margin-top: 50px;
     width: 50px;
     margin-bottom: 15px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100px;
 }
 
 .line-colored {
@@ -137,22 +144,6 @@
     background-size: 100% 100%;
 }
 
-.bg-three-totvs h1 {
-    font-size: 70px;
-    padding-top: 250px;
-    padding-left: 40px;
-    font-weight: 800;
-    text-shadow: black 0.1em 0.1em 0.2em;
-}
-
-.bg-three-totvs h3 {
-    font-size: 35px;
-    padding-left: 40px;
-    padding-bottom: 250px;
-    font-weight: 400;
-    text-shadow: black 0.03em 0.03em 0.1em;
-}
-
 .contact-us {
     font-family: 'Roboto', 'sans-serif';
     display: block;
@@ -215,7 +206,6 @@
 
 
 /* END =================================*/
-
 .infobar {
     background-color: #191932;
     font-family: 'Roboto', 'sans-serif';
@@ -260,11 +250,14 @@
 }
 
 /* RESPONSIVIDADE */
-
 @media only screen and (max-width: 600px) {
 
     .list h1 {
-        font-size: 40px;
+        font-size: 30px;
+    }
+
+    .list h3 {
+        font-size: 25px;
     }
 
     .bg-one-user {
@@ -285,4 +278,7 @@
         width: 300px;
     }
 
+    .contact-us h1 {
+        font-size: 32px;
+    }
 }
