@@ -1,11 +1,12 @@
-import '../styles/landing.css';
+import '../styles/portfolio.css';
 import fl from '../assets/logo_black.png';
 import flTwo from '../assets/fl-grey.png';
 import flblack from '../assets/flblack.png';
 import scrollImg from '../assets/down.webp';
 import whatsappImg from '../assets/whatsapp.png';
+import roadmapImg from '../assets/road.png';
 
-function Landing() {
+function Portfolio() {
     return (
         <div id="homepage">
             <header>
@@ -18,11 +19,11 @@ function Landing() {
             <div className="main">
                 <img src={flblack} alt="gif-init" />
                 <br></br>
-                <a href="/jobs">Sobre nós</a>
+                <a href="/">Início</a>
                 <br></br>
             </div>
             <div className="markdown">
-                <h3>Informações</h3>
+                <h3>Realizações</h3>
                 <div className="main-img">
                     <img src={scrollImg} alt="scrollImg" />
                 </div>
@@ -33,29 +34,33 @@ function Landing() {
             <div className="line-colored"></div>
             <div className="information">
                 <section className="list">
-                    <div className="bg-one-user">
-                        <h1>Soluções inteligentes,<br></br>para todos os tipos de negócios.</h1>
-                        <h3>Seja você pessoa física ou jurídica.</h3>
-                    </div>
-                    <div className="line-colored"></div>
-                    <div className="bg-two-dev">
-                        <h1>Design e desenvolvimento web.</h1>
-                        <h3>Da arquitetura até seu desenvolvimento funcional.<br></br>Tudo de forma descomplicada.</h3>
+                    <div className="bg-one-welcome">
+                        <h1>Quem somos nós?</h1>
+                        <h3>Uma empresa que surgiu na vontade de inovar,<br></br>
+                        desde as pequenas coisas até as grandes.<br></br><br/>
+                        Desenvolvemos soluções digitais incluindo:<br></br>
+                        - Desenvolvimento Web. (Websites)<br></br>
+                        - Design. (Web/Mobile/Banners)
+                        </h3>
                     </div>
                 </section>
             </div>
             <div className="line-colored"></div>
-            <div className="contact-us">
-                <h1>Deseja saber mais? Entre em contato conosco.</h1>
-                <br></br>
-                <a href="mailto:flowslabswork@outlook.com">Contate-nos</a>
-                <br></br>
-                <br/>
-                <hr/>
-                <br/>
-                <h3>Nossas realizações e métodos.</h3>
-                <a href="/jobs">Projetos</a>
-                <br/>
+            <div className="roadway">
+                <h1>Nosso método de desenvolvimento</h1>
+                <img src={roadmapImg} alt="roadmap"/>
+            </div>
+            <div className="line-colored"></div>
+            <div className="cases">
+                <h2>Realizações</h2>
+                <section className="case-list">
+                    <div className="case-one">
+                        <h1>Juan Felipe Silva do Amarante</h1>
+                        <h3>Projeto: JFSA Web</h3>
+                        <p>Site profissional no setor de tecnologia e gestão.</p>
+                        <a href="https://juanamarante.com/">Acesse o website aqui</a>
+                    </div>
+                </section>
             </div>
             <div className="line-colored"></div>
             <footer>
@@ -79,4 +84,4 @@ function Landing() {
     );
 }
 
-export default Landing;
+export default Portfolio;

@@ -92,96 +92,119 @@
     color: white;
 }
 
-.bg-one-user {
-    background: url("https://images.unsplash.com/photo-1492086517200-9393d4eb53bf?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=751&q=80");
+.bg-one-welcome {
+    background: url("https://images.unsplash.com/photo-1503104391828-1ffd78229dda?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80");
     background-repeat: no-repeat;
-    background-size: 100% 150%;
+    background-size: 100% 115%;
     background-clip: border-box;
 }
 
-.bg-one-user h1 {
+.bg-one-welcome h1 {
     font-size: 70px;
     font-weight: 800;
-    padding-top: 250px;
+    padding-top: 200px;
     padding-left: 40px;
     padding-bottom: 10px;
     text-shadow: black 0.1em 0.1em 0.2em;
 }
 
-.bg-one-user h3 {
+.bg-one-welcome h3 {
     font-size: 35px;
     padding-left: 40px;
-    padding-bottom: 250px;
+    padding-bottom: 200px;
     font-weight: 400;
     text-shadow: black 0.03em 0.03em 0.1em;
 }
 
-.bg-two-dev {
-    background: url("https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80");
-    background-repeat: no-repeat;
-    background-size: 100% 150%;
-}
-
-.bg-two-dev h1 {
+.roadway h1 {
+    color: white;
     font-size: 70px;
-    padding-top: 250px;
-    padding-left: 40px;
-    font-weight: 800;
-    text-shadow: black 0.1em 0.1em 0.2em;
-}
-
-.bg-two-dev h3 {
-    font-size: 35px;
-    padding-left: 40px;
-    padding-bottom: 250px;
-    font-weight: 400;
-    text-shadow: black 0.03em 0.03em 0.1em;
-}
-
-.contact-us {
     font-family: 'Roboto', 'sans-serif';
+    font-weight: 500;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.roadway img {
     display: block;
-    padding: 50px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    height: 800px;
+    margin-bottom: 80px;
 }
 
-.contact-us h1 {
+.cases {
+    font-family: 'Roboto', 'sans-serif';
+    background-color: black;
+    padding: 60px;
+}
+
+.cases h2 {
+    color: white;
+    font-size: 70px;
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 500;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.case-list {
+    border: 5px solid #0b08a1;
+    border-radius: 32px;
+    padding: 25px;
+    background-color:white;
+}
+
+.case-list strong {
+    font-size: 60px;
+    font-weight: 600;
+    padding-top: 50px;   
+}
+
+.case-list h3 {
     margin-bottom: 20px;
-    color: white;
     text-align: center;
-    font-size: 40px;
-    font-weight: 300;
 }
 
-.contact-us h3 {
-    margin-bottom: 36px;
-    color: white;
+.case-list h1 {
+    font-size: 48px;
+    font-weight: 500;
     text-align: center;
-    font-size: 40px;
-    font-weight: 300;
-    padding-top: 25px;
 }
 
-.contact-us a {
+.case-list p {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.case-list a {
     display: block;
     margin: auto;
-    width: 200px;
+    width: 350px;
     height: 60px;
-    background: #0b08a1;
+    background: white;
     padding: 18px;
-    border-radius: 8px;
-    color: white;
+    border-radius: 30px;
+    color: black;
     line-height: 25px;
     text-align: center;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-size: 1.8rem;
-    font-weight: 300;
+    font-weight: 450;
     border-color: white;
-    border: 1px solid;
+    border: 2px solid;
 }
 
-.contact-us a:hover {
-    background-color: #1f1f35;
+.case-list a:hover {
+    background-color: black;
+    font-weight: 450;
+    color: white;
     cursor: pointer;
 }
 
@@ -262,16 +285,8 @@
         font-size: 25px;
     }
 
-    .bg-one-user {
+    .bg-one-welcome {
         background-size: 200% 150%;
-    }
-
-    .bg-two-dev {
-        background-size: 200% 100%;
-    }
-    
-    .bg-three-totvs {
-        background-size: 150% 100%;
     }
 
     .main img {
@@ -280,7 +295,35 @@
         width: 300px;
     }
 
-    .contact-us h1 {
+    .roadway h1 {
         font-size: 32px;
+    }
+
+    .roadway img {
+        width: 380px;
+        height: 300px;
+    }
+
+    .cases h2 {
+        font-size: 32px;
+    }
+
+    .case-list h1 {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    .case-list p {
+        font-size: 25px;
+    }
+
+    .case-list a {
+        width: 200px;
+        height: 60px;
+        padding: 18px;
+        color: black;
+        line-height: 25px;
+        font-size: 0.9rem;
+        font-weight: bolder;
     }
 }
