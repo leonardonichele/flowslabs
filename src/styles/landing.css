@@ -40,7 +40,7 @@
 }
 
 .about h1 {
-    font-size: 1200%;
+    font-size: 1100%;
 }
 
 .about h3 {
@@ -217,14 +217,12 @@ footer {
 
     .method h1 {
         font-size: 21px;
-        text-align: center;
     }
 
     .card {
-        width: 325px;
-        height: 420px;
-        margin-left: 0;
-        margin-right: 0;
+        width: 320px;
+        padding-top: 10px;
+        text-align: center;
     }
 
     .work h1 {
@@ -246,7 +244,7 @@ footer {
     }
 
     .about h1 {
-        font-size: 27px;
+        font-size: 25px;
     }
 
     .about h3 {
