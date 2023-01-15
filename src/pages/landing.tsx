@@ -21,7 +21,7 @@ function Landing() {
                     <img src={heroImg} alt="banner"/>
                 </div>
                 <div className="about">
-                    <h1>FlowsLabs</h1>
+                    <h1>Ligos.Tech</h1>
                     <h3>Quem somos nós?</h3>
                     <p>Somos especialistas em desenvolvimento e gestão de projetos,<br></br>Criando, projetando e disponibilizando softwares para vários setores e clientes.<br/><br></br>
                     Além da tecnologia, o nosso foco é você, inclusive na sua jornada, impulsionando os seus negócios e disponibilizando soluções eficientes.<br></br></p>
@@ -96,7 +96,7 @@ function Landing() {
                 </div>
             </main>
             <footer>
-                <p>Copyright © 2023 FlowsLabs. Todos os direitos reservados.<br></br>
+                <p>Copyright © 2023 Ligos. Todos os direitos reservados.<br></br>
                 CNPJ nº 42.907.335/0001-38 - RS / Brasil.</p>
             </footer>
         </div>
