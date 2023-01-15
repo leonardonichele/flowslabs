@@ -1,8 +1,8 @@
-# WEBSITE EMPRESARIAL - VERSÃO 1.0
+# WEBSITE EMPRESARIAL - VERSÃO 1.5
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Scripts disponíveis:
+## Flows.Docs:
 
 Na dir do projeto você poderá rodar:
 

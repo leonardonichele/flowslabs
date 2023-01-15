@@ -23,47 +23,45 @@ function Landing() {
                 <div className="about">
                     <h1>FlowsLabs</h1>
                     <h3>Quem somos nós?</h3>
-                    <p>Uma empresa que surgiu na vontade de inovar, desde as pequenas coisas até as grandes.<br></br>Criado por Leonardo da Silva Nichele.<br></br><br/>
-                    Desenvolvemos soluções digitais incluindo:<br></br>
-                    - Desenvolvimento Web.<br></br>
-                    - Design. (Web/Mobile/Banners).</p>
+                    <p>Somos especialistas em desenvolvimento e gestão de projetos,<br></br>Criando, projetando e disponibilizando softwares para vários setores e clientes.<br/><br></br>
+                    Além da tecnologia, o nosso foco é você, inclusive na sua jornada, impulsionando os seus negócios e disponibilizando soluções eficientes.<br></br></p>
                     <br/>
                     <a href="https://api.whatsapp.com/send?phone=5551998810795"><img src={whatsImg} alt="whatsapp"/></a>
                 </div>
                 <hr/>
                 <div className="method">
-                    <h1>Nosso método de desenvolvimento</h1>
+                    <h1>Nossas áreas de atuação</h1>
                     <div className="row">
                         <div className="column">
                             <div className="card">
                                 <img src={designImg} alt="design"/>
-                                <h3>Design</h3>
+                                <h3>Planejamento de Ideias</h3>
                                 <br/>
-                                <p>Estudo visual com tendências de satisfazer o cliente e suas necessidades.</p>
+                                <p>Consultoria para tirar seus sonhos do papel e virar realidade.</p>
                             </div>
                         </div>
                         <div className="column">
                             <div className="card">
                                 <img src={reqImg} alt="requisitos"/>
-                                <h3>Requisitos</h3>
+                                <h3>Inteligência Analítica</h3>
                                 <br/>
-                                <p>Definição de métricas a fins de garantir estabilidade e performance.</p>
+                                <p>Visualização e análise de dados para decisões inteligentes.</p>
                             </div>
                         </div>
                         <div className="column">
                             <div className="card">
                                 <img src={devImg} alt="developer"/>
-                                <h3>Desenvolver e testes</h3>
+                                <h3>Software House</h3>
                                 <br/>
-                                <p>Hora do código + verificações de qualidade.</p>
+                                <p>Soluções integradas e específicas para o seu momento atual.</p>
                             </div>
                         </div>
                         <div className="column">
                             <div className="card">
                                 <img src={showImg} alt="apresentação"/>
-                                <h3>Apresentação de projeto</h3>
+                                <h3>Infraestrutura Digital</h3>
                                 <br/>
-                                <p>Exibição ao cliente de versão finalizada.</p>
+                                <p>Disponibilidade, escalabilidade e facilidades para as suas ideias.</p>
                             </div>
                         </div>
                     </div>
@@ -72,25 +70,34 @@ function Landing() {
                     <h1>Realizações</h1>
                     <div className="juan-case">
                         <p>Juan<b> Amarante</b></p>
-                        <h2>Projeto: JFSA-Web</h2>
+                        <h2>Setor: Profissional</h2>
                         <br/>
                         <h3>Site profissional no setor de tecnologia e gestão.</h3>
                         <br/>
                         <br/>
                         <a href="https://juanamarante.com">Acessar site</a>
                     </div>
+                    <div className="juan-case">
+                        <p>Aluguéis de Bikes</p>
+                        <h2>Setor: Serviços</h2>
+                        <br/>
+                        <h3>Inteligência Artificial para previsão de aluguéis diários.</h3>
+                        <br/>
+                        <br/>
+                        <a href="https://onedrive.com">Ver relatório</a>
+                    </div>
                 </div>
                 <div className="contact">
-                    <h1>Contate-me</h1>
-                    <p>Caso tenha interesse em estabelecer contato, clique abaixo.</p>
+                    <h1>Contate-nos</h1>
+                    <p>Caso tenha interesse em estabelecer contato, clique no botão.</p>
                     <br/>
                     <br/>
-                    <a href="mailto:flowslabswork@outlook.com">Enviar mensagem</a>
+                    <a href="mailto:leonardonichelework@outlook.com">Enviar mensagem</a>
                 </div>
             </main>
             <footer>
-                <p>Copyright © 2021 FlowsLabs. Todos os direitos reservados.<br></br>
-                CNPJ nº 35.004.327/0001-16 - Rio Grande do Sul / Brasil.</p>
+                <p>Copyright © 2023 FlowsLabs. Todos os direitos reservados.<br></br>
+                CNPJ nº 42.907.335/0001-38 - RS / Brasil.</p>
             </footer>
         </div>
     );
