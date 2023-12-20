@@ -1,35 +1,112 @@
+.behind {
+    background-color: black;
+}
+
 .content {
-    margin-left: 100px;
-    margin-right: 100px;
     font-family: 'Montserrat', 'Roboto', 'sans-serif';
 }
 
 .topnav {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 45px;
     overflow: hidden;
-    background-color: white;
-    position: fixed;
+    position: relative;
     top: 0;
-    width: 100%;
-    padding: 15px;
     display: inline-block;
-    background-color: white;
+    background-color: black;
 }
 
 .topnav img {
-    width: 5%;
+    position: relative;
+    width: 4%;
+}
+
+.topnav img {
+    animation-name: rotate;
+    animation-duration: 2s;
+}
+
+@keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
 }
 
 .hero {
-    margin-top: 250px;
+    padding: 42px;
     display: block;
-    margin-left: 0;
-    margin-right: 0;
-    text-align: center;
-    margin-bottom: 220px;
+    background-color: black;
 }
 
-.hero img {
-    width: 1100px;
+.hero h1 {
+    font-size: 450%;
+    color: white;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid #1E90FF; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .10em; /* Adjust as needed */
+    animation: 
+      typing 1.8s steps(25, end),
+      blink-caret .60s step-end infinite;
+}
+
+.flow img {
+    width: 100%;
+    position: relative;
+    animation-name: slide;
+    animation-duration: 1.6s;
+}
+
+.scroll {
+    text-align: center;
+    padding-bottom: 25px;
+    animation: fadein 3s;
+    -moz-animation: fadein 3s; /* Firefox */
+    -webkit-animation: fadein 3s; /* Safari and Chrome */
+    -o-animation: fadein 3s; /* Opera */
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@keyframes slide {
+    0% {
+        left: 100%;
+    }
+    100% {
+        left: 0%;
+    }
 }
 
 .about {
@@ -40,11 +117,28 @@
 }
 
 .about h1 {
-    font-size: 1100%;
+    font-size: 900%;
+}
+  
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+  
+  
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #5e17eb; }
 }
 
 .about h3 {
     font-size: 48px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.about h4 {
+    font-size: 28px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -70,6 +164,7 @@
     font-size: 36px;
     font-weight: 800;
     text-align: center;
+    color: white;
 }
 
 .method h3 {
@@ -90,7 +185,7 @@
 }
 
 .row {
-    margin: 0 -50px;
+    margin: 0 50px;
 }
 
 .row:after {
@@ -100,14 +195,17 @@
 }
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-    padding-top: 8%;
-    padding-left: 10px;
-    padding-right: 10px;
+    box-shadow: 5px 5px 5px rgb(68 68 68 / 0.6);
+    padding-top: 10%;
+    padding-bottom: 10%;
     text-align: center;
     background-color: #f1f1f1;
-    height: 390px;
-    border: 5px solid #1E90FF;
+    border: 5px solid #5e17eb;
+}
+
+.card p {
+    margin-left: 4%;
+    margin-right: 4%;
 }
 
 .work h1 {
@@ -118,27 +216,34 @@
     text-align: center;
 }
 
-.juan-case {
+.cases {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
     padding-bottom: 30px;
     padding-top: 10px;
     background-color: #f1f1f1;
     border: 5px solid black;
     text-align: center;
-    margin-left: 35%;
-    margin-right: 35%;
+    margin-left: 0%;
+    margin-right: 0%;
     margin-bottom: 50px;
 }
 
-.juan-case p, b{
+.cases p {
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 22px;
+    text-align: center;
+}
+
+.cases b {
     font-size: 40px;
 }
 
-.juan-case h2 {
+.cases h2 {
     font-size: 22px;
 }
 
-.juan-case a {
+.cases a {
     color: white;
     font-size: 25px;
     border: 1px solid #1E90FF;
@@ -148,7 +253,7 @@
     text-decoration: none;
 }
 
-.juan-case a:hover {
+.cases a:hover {
     border: black;
     color: black;
     background: white;
@@ -229,7 +334,7 @@ footer {
         font-size: 22px;
     }
 
-    .juan-case {
+    .cases {
         width: 300px;
         height: 320px;
         padding-bottom: 30px;

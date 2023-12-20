@@ -1,4 +1,4 @@
-# WEBSITE EMPRESARIAL - VERSÃO 1.5
+# WEBSITE EMPRESARIAL - VERSÃO 2.0
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -17,4 +17,4 @@ Auto-reload conforme edições em código.
 
 Realiza a build para produção na pasta `build`.\
 
-# Desenvolvido por Leonardo da Silva Nichele para FlowsLabs - Technological Services.
+# Desenvolvido por Leonardo da Silva Nichele para LSN Consulting - Technological Services.
